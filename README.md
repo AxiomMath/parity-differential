@@ -2,7 +2,7 @@
 
 # Parity of $k$-differentials in genus zero and one
 
-These files accompany the paper [arXiv:TODO](TODO).
+These files accompany the paper [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).
 
 The formal proofs provided in this work were developed and verified using **Lean 4.26.0**. Compatibility with earlier or later versions is not guaranteed due to the evolving nature of the Lean 4 compiler and its core libraries.
 

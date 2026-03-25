@@ -8,17 +8,17 @@ The formal proofs provided in this work were developed and verified using **Lean
 
 ## Input files
 
-- `task.md`: natural language description of the task to be completed
-- `.environment`: specifies the Lean version
+- [`task.md`](task.md): natural language description of the task to be completed
+- [`.environment`](.environment): specifies the Lean version
 
 ## Output files (Run with Lean 4.26.0)
 
-- `ParityDifferential/problem.lean`: translation of the problem statement into formal language (Lean)
-- `ParityDifferential/solution.lean`: solution in formal language (Lean)
+- [`ParityDifferential/problem.lean`](ParityDifferential/problem.lean): translation of the problem statement into formal language (Lean)
+- [`ParityDifferential/solution.lean`](ParityDifferential/solution.lean): solution in formal language (Lean)
 
 ## Miscellaneous files (not used or written by AxiomProver)
 
-- `examples.py`: used to show example verification of small cases.
+- [`examples.py`](examples.py): used to show example verification of small cases.
   Only included for expository reasons and not part of the automated workflow.
 
 ## License

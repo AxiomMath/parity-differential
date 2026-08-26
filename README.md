@@ -21,6 +21,14 @@ The formal proofs provided in this work were developed and verified using **Lean
 - [`examples.py`](examples.py): used to show example verification of small cases.
   Only included for expository reasons and not part of the automated workflow.
 
+## Verifying with Comparator
+
+This repository can be verified against the formal problem statement with the Lean comparator on a Linux machine. First, follow the instructions in [https://github.com/leanprover/comparator](https://github.com/leanprover/comparator) to install comparator. Then, run the following command:
+
+```
+lake env comparator comparator.json
+```
+
 ## License
 
 This repository uses the MIT License. See [LICENSE](LICENSE) for details.

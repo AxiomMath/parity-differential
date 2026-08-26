@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ParityDifferential.problem",
+  "solution_module": "ParityDifferential.solution",
+  "theorem_names": [
+    "main_theorem"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": false
+}

@@ -4,14 +4,14 @@
 
 These files accompany the paper [arXiv:2602.03722](https://arxiv.org/abs/2602.03722).
 
-The formal proofs provided in this work were developed and verified using **Lean 4.26.0**. Compatibility with earlier or later versions is not guaranteed due to the evolving nature of the Lean 4 compiler and its core libraries.
+The formal proofs provided in this work were developed and verified using **Lean 4.34.0-rc2**. Compatibility with earlier or later versions is not guaranteed due to the evolving nature of the Lean 4 compiler and its core libraries.
 
 ## Input files
 
 - [`task.md`](task.md): natural language description of the task to be completed
 - [`.environment`](.environment): specifies the Lean version
 
-## Output files (Run with Lean 4.26.0)
+## Output files (Run with Lean 4.34.0-rc2)
 
 - [`ParityDifferential/problem.lean`](ParityDifferential/problem.lean): translation of the problem statement into formal language (Lean)
 - [`ParityDifferential/solution.lean`](ParityDifferential/solution.lean): solution in formal language (Lean)
